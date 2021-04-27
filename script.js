@@ -42,25 +42,25 @@
 // console.log(expo(3));
 
 // function capitalize(mot){
-//     return mot.charAt(0).toUpperCase() + mot.slice(1);
+//     return mot.charAt(0).toUpperCase() + mot.substr(1).toLowerCase;
 // }
 
 // console.log(capitalize("sahbe"));
 
-function calcul(nbr1, operator, nbr2){
-    switch(operator){
-        case "+":
-            return nbr1 + nbr2;
-        case '-':
-            return nbr1 - nbr2;
-        case '*':
-            return nbr1*nbr2;
-        case "/":
-            return nbr1 / nbr2
-        default:
-            return "Ce n'est pas un opérateur"
-    }
-}
+// function calcul(nbr1, operator, nbr2){
+//     switch(operator){
+//         case "+":
+//             return nbr1 + nbr2;
+//         case '-':
+//             return nbr1 - nbr2;
+//         case '*':
+//             return nbr1*nbr2;
+//         case "/":
+//             return nbr1 / nbr2
+//         default:
+//             return "Ce n'est pas un opérateur"
+//     }
+// }
 
 
-console.log(calcul(70,"+",20));
+// console.log(calcul(70,"+",20));
